@@ -43,7 +43,8 @@ const classes: Array<ClassType> = [
 ];
 
 type Props = {
-    setSelectedPage: (value: SelectedPage) => void;}
+    setSelectedPage: (value: SelectedPage) => void;
+}
 
 const OurClasses = ({setSelectedPage}: Props) => {
   return <section id="ourclasses" className="w-full bg-primary-100 py-40">
